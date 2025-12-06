@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "project2"
+version = "0.1.0"
+description = "Primitive console DB (study project)"
+authors = ["You <you@example.com>"]
+readme = "README.md"
+packages = [
+  { include = "src" },
+]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<4.0"
+prompt = "^0.4.1"
+prettytable = "^3.10.0"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.7.4"
+
+[tool.poetry.scripts]
+project = "src.primitive_db.main:main"
+database = "src.primitive_db.main:main"
+
+[tool.ruff]
+line-length = 88
+target-version = "py312"
+exclude = ["venv", ".venv", "dist", "__pycache__"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
+ignore = []
