@@ -2,7 +2,7 @@
 name = "project2"
 version = "0.1.0"
 description = "Primitive console DB (study project)"
-authors = ["You <you@example.com>"]
+authors = ["Ctyzzz <sentus008@gmail.com>"]
 readme = "README.md"
 packages = [
   { include = "src" },
@@ -28,3 +28,4 @@ exclude = ["venv", ".venv", "dist", "__pycache__"]
 [tool.ruff.lint]
 select = ["E", "F", "I"]
 ignore = []
+
