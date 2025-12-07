@@ -7,3 +7,7 @@
 ## Установка
 ```bash
 make install
+```
+## Demo (asciinema)
+
+[![asciicast](https://asciinema.org/a/AgyHKAAfMpDoPbKrAYYzVaxc5.svg)](https://asciinema.org/a/AgyHKAAfMpDoPbKrAYYzVaxc5)
